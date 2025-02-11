@@ -1,15 +1,12 @@
-#!/usr/bin/env python3
-# IBM_PROLOG_BEGIN_TAG
-# This is an automatically generated prolog.
+# 
+# CRC-32 forcer (Python)
+# 
+# Copyright (c) 2020 Project Nayuki
+# https://www.nayuki.io/page/forcing-a-files-crc-to-any-value
 #
-# $Source: public/src/build/utils/fixcrc.py $
-#
-# OpenPOWER sbe Project
-#
-# Contributors Listed Below - COPYRIGHT 2024
-# [+] International Business Machines Corp.
-#
-#
+# Copyright (c) 2024 International Business Machines Corp.
+# https://github.com/open-power/op-utils/blob/main/sbe/scripts/fixcrc.py
+# 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -21,10 +18,8 @@
 # GNU General Public License for more details.
 # 
 # You should have received a copy of the GNU General Public License
-# along with this program (see COPYING.txt).
-# If not, see <http://www.gnu.org/licenses/>.
-#
-# IBM_PROLOG_END_TAG
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+# 
 import os, sys, zlib
 from typing import BinaryIO, List, Optional, Tuple
 # ---- Main application ----
